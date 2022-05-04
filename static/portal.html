@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal | Groupie-Tracker</title>
+    <!-- Our cards use some bootstrap elements -->
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+<div id="portal-container">
+    <div id="portal-content">
+        <p>Created By Connor</p>
+        <h1>Groupie-Tracker</h1>
+
+        <p class="desc">Below you will find artists and bands, followed by information such as their members, their image,<br>the year in which they first became popular, 
+            the date of their first album and finally their latest concert locations and dates.
+            <br>
+            The asterisk (*) next to each date indicates that it belongs to the first country on the list. Future asterisks indicate that the following dates belong to the next country on the list.
+        </p>
+
+        <div class="container">
+            <div class="search_wrap search_wrap_1">
+                <div class="search_box">
+                    <input type="text" class="input" placeholder="search...">
+                    <div class="btn btn_common">
+                        <object data="/images/magnifying-glass.svg" class="mag-glass" width="20px"> </object>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr class="selector">
+
+        <!-- Cards -->
+        <div class='row dashboard-cards'>
+            <!-- main.go will fill contents -->

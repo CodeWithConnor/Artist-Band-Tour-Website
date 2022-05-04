@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groupie-Tracker</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<div id="info-container">
+    <div id="error-content">
+        <p id ="error-p">404 Error</p>
+        <h1 id="error-title">We Can't Find That Page</h1>
+
+        <p class="error-desc">We tried looking for that page, 
+            but unfortunately we couldn't find it.<br>
+            Please click the button below to navigate back to the home page.
+        </p>
+
+        <!-- Our Go server is setup to fetch API and display it when user visits /portal -->
+        <a href="/"><button id="btn-nav-home">Navigate Home</button></a>
+
+    </div>
+</div>
+    
+</body>
+</html>
