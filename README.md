@@ -35,3 +35,7 @@ This was an app I created in order to improve upon my knowledge of APIs.
 ### In order to limit myself...
 
 - I have used only the [standard Go](https://golang.org/pkg/) packages.
+
+### Usage
+
+- In order to run this app, please clone the repository, run main.go and head over to localhost:3000.
