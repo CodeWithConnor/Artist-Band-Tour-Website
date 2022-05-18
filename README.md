@@ -12,7 +12,7 @@ This project has helped me perfect my knowledge on:
 
 This was an app I created in order to improve upon my knowledge of APIs.
 
-- The [API] I've used for this app consists of four parts:
+- The API I've used for this app consists of four parts:
 
   - The first one, `artists`, contains information about some bands and artists like their name, image, the year they founded, the date of their first album and their members.
 
